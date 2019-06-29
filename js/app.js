@@ -40,7 +40,7 @@ function runDetection() {
         .then(predictions => {
             console.log(predictions); 
             if (predictions.length > 0) {
-                audio.play;
+                audio.play();
             }
             requestAnimationFrame(runDetection);
         });
